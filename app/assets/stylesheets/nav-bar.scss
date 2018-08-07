@@ -1,0 +1,26 @@
+
+
+.nav-bar {
+  background-color: #E8EFE8;
+  display: flex;
+  justify-content: space-between;
+  align-items : center;
+  top : 0;
+  position: sticky;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
+}
+
+.nav-bar h1 {
+  margin :10px;
+  font-size: 30px;
+}
+
+.nav-bar a {
+  margin-right: 20px;
+  color : gray;
+  text-decoration :none;
+}
+
+.nav-bar a:hover {
+  color : darkgray;
+}

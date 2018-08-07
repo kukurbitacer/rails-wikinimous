@@ -1,0 +1,9 @@
+<div class="info-container">
+  <h1>Edit my article</h1>
+  <%= render 'form', article: @article %>
+</div>
+
+<%= link_to articles_path, class: "back" do %>
+<i class="fas fa-undo-alt"></i>
+Back to articles
+<% end %>
